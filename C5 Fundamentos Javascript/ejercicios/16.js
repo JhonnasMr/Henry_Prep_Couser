@@ -6,6 +6,9 @@ function esImpar(num) {
   // 15 ---> true
   // 14 ---> false
   // Tu código:
+  if(typeof num != "number") return "escriba un numero natural.";
+  if(num % 2 === 0) return false;
+  return true;
 }
 
 module.exports = esImpar;

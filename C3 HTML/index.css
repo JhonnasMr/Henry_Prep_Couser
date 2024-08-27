@@ -1,0 +1,22 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background-color: #343434cb;
+    text-align: center;
+    border-radius: 10% 10% 0 0;
+    color: white;
+}
+
+li:hover {
+    background-color: rgb(113, 246, 255);
+    color: black;
+}
+
+input {
+    width: 98%;
+    text-align: center;
+}
